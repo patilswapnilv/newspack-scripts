@@ -1,5 +1,6 @@
 description: >
-  Generate documentation.
+  Generate documentation. This will create a new branch called docs and push the HTML documentation to it, as /docs directory.
+  To make this work with GH pages, visit <repo-url>/settings/pages, set branch to "docs", and folder to "/docs".
 
 executor: php-81
 
